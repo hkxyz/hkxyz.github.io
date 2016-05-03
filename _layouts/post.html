@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<style media="screen">
+#footer {
+  position: relative!important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding-top: 2em;
+}
+</style>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="container postCont">
+
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <div class="post-author">
+
+        {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author">{{ page.author }}</span></span> • {% endif %}</p>
+
+      </div>
+        </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</div>
+</article>
