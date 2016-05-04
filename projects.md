@@ -1,12 +1,23 @@
 ---
 layout: default
 ---
+<style>
+
+#footer {
+  position: relative!important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding-top: 2em;
+}
+</style>
 <section id="story-title">
   <div class="container">
     <div class="row">
       <center>
       <div class="stories-title">
-        <span class="stTitle">STORIES</span>
+        <span class="stTitle">PROJECTS</span>
         <div class="stories-caption">
           wanderer's journal about living, non living &amp; animation
         </div>

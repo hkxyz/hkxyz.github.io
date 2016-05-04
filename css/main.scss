@@ -36,7 +36,7 @@ padding-bottom: 1em;
 .resume-matter{
   padding-top: 2em;
   padding-bottom: 2em;
-  
+
 }
 .place-education{
   font-size: 14px;
@@ -119,6 +119,8 @@ text-align: center;
   font-family: "Source Sans Pro";
 font-weight: 300;
 font-size: 20px;
+
+text-align: justify;
 }
 .post-meta{
   font-family: "Futura Std Medium";
@@ -127,11 +129,15 @@ text-align: center;
 letter-spacing: 2px;
 text-indent: 2px;
 }
+
 .post-author{
   font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
 text-align: center;
+letter-spacing: 2px;
+text-indent: -2px;
+text-transform: uppercase;
 }
 .postCont{
 
