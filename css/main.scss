@@ -2,10 +2,108 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+.title-education{
+  font-size: 14px;
+text-align: left;
+font-family: "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+letter-spacing: .3em;
+text-transform: uppercase;
+font-weight: bold;
+color: #666;
+}
+.education-year{
+  display: block;
+margin-top: 10px;
+color: #666;
+font: normal normal 14px "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+line-height: 1em;
+letter-spacing: .4em;
+text-transform: uppercase;
+text-align: left;
 
+}
+.education{
+  display: block;
+margin-top: 10px;
+color: black;
+font: normal normal 14px "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+line-height: 1em;
+letter-spacing: .4em;
+text-transform: uppercase;
+text-align: left;
+padding-bottom: 1em;
+}
+.resume-matter{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  
+}
+.place-education{
+  font-size: 14px;
+text-align: left;
+font-family: "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+letter-spacing: .3em;
+text-transform: uppercase;
+}
 .postContent{
   text-align: center;
 
+}
+.quote-content{
+  font-size: 14px;
+padding: 1em;
+border-bottom: 2px solid crimson;
+font-family: "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+letter-spacing: .3em;
+text-transform: uppercase;
+}
+.social{
+  padding:1em;
+}
+.designation{
+  display: block;
+margin-top: 10px;
+color: #666;
+font: normal normal 14px "Puritan","Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+line-height: 1em;
+letter-spacing: .4em;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 1em;
+}
+.name-resume{
+  display: block;
+margin: 0;
+padding: 0;
+color: #000;
+font: normal normal 24px "Futura Std Medium" ,"Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+line-height: 1em;
+letter-spacing: 8px;
+text-transform: uppercase;
+text-align: center;
+padding-top: 3em;
+}
+.quote-resume{
+  display: inline-block;
+padding: 0 10px;
+margin: 30px 0;
+color: #000;
+font: normal normal 14px "Trebuchet MS",Arial,Tahoma,Verdana,sans-serif;
+line-height: 1em;
+letter-spacing: .5em;
+text-transform: uppercase;
+background: #fff;
+}
+.links{
+  font-family: "Futura Std Medium";
+  letter-spacing: 2px;
+  border-top: 1px solid black;
+  border-bottom: 2px solid orange;
+
+  padding: 1em;
+}
+.resumecont{
+    width: 800px !important;
 }
 .post-title{
   font-family: "PT Sans";
@@ -13,7 +111,10 @@ font-weight: 900;
 font-size: 70px;
 text-align: center;
 }
+.quote-content-title{
 
+
+}
 .post-content{
   font-family: "Source Sans Pro";
 font-weight: 300;
