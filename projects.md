@@ -19,7 +19,7 @@ layout: default
       <div class="stories-title">
         <span class="stTitle">PROJECTS</span>
         <div class="stories-caption">
-          wanderer's journal about living, non living &amp; animation
+          stuff we can use.
         </div>
       </div>
 
@@ -27,6 +27,7 @@ layout: default
   </div>
 </section>
 {% for post in site.posts%}
+{% if post.categories == "Project" %}
 <div class="post postContent">
 
 
@@ -60,5 +61,5 @@ layout: default
   </div>
 </div>
 
-
+{% endif %}
 {% endfor %}

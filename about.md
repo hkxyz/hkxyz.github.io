@@ -2,7 +2,18 @@
 layout: default
 ---
 <style>
-
+.edu{
+  padding-left:0px !important;
+  padding-right: 0px !important;
+}
+.edu-right{
+  padding-left:0px !important;
+  padding-right: 0px !important;
+  text-align: justify !important;
+  font-family: "Trebuchet MS";
+color: rgb(102, 102, 102);
+font-size: 14px;
+}
 #footer {
   position: relative!important;
   bottom: 0;
@@ -52,6 +63,7 @@ layout: default
       </div>
 
     </div>
+    <!--EDUCATION-->
     <div class="row">
       <div class="col-md-4">
         <br>
@@ -92,11 +104,14 @@ layout: default
         ROHINI, NEW DELHI
       </div>
       <div class="education-year">
-        2014
+        YEAR OF PASSING : 2014<br><br>
+        12th (95.4%) &amp;
+        10th (9.6 CGPA)
       </div>
+
     </div>
 
-
+<!--experience-->
     <div class="row">
       <div class="col-md-4">
         <br>
@@ -142,6 +157,48 @@ layout: default
       <div class="education-year">
         2016 - PRESENT
       </div>
+    </div>
+    <div class="row resume-matter">
+      <div class="col-md-6">
+        <div class="education">
+         INTERN
+        </div>
+        <div class="title-education">
+          FOODLOCATR
+        </div>
+        <div class="place-education">
+          RESTAURANT SEARCH ENGINE
+        </div>
+        <div class="education-year">
+         OCT 2015 - DEC 2015
+        </div>
+
+      </div>
+
+      <div class="col-md-6 edu-right">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    <div class="row resume-matter">
+      <div class="col-md-6 edu">
+        <div class="education">
+         TECH LEAD
+        </div>
+        <div class="title-education">
+        THINKOPOLITAN
+        </div>
+        <div class="place-education">
+        STUDENT RUN MAGAZINE
+        </div>
+        <div class="education-year">
+         AUGUST 2015 - MARCH 2016
+        </div>
+      </div>
+      <div class="col-md-6 edu-right">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+
     </div>
   </div>
 
