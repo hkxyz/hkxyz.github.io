@@ -14,11 +14,11 @@ layout: default
 }
 </style>
 <section id="story-title">
-  <div class="container">
+  <div class="">
     <div class="row">
       <center>
       <div class="stories-title">
-        <span class="stTitle">STORIES</span>
+      <span class="stTitle"><a class="stTitle" href="/stories">STORIES</a></span>
         <div class="stories-caption">
           wanderer's journal about living, non living &amp; animation
         </div>
@@ -36,7 +36,7 @@ layout: default
   <a class='postLink' href="{{post.url}}">{{post.title}}</a>
   </div>
   <div class="postExt">
- {{ post.content | strip_html | truncatewords:20}}
+ {{ post.content | strip_html | truncatewords:10}}
   </div>
 
   <div class="container dateAndStuff">

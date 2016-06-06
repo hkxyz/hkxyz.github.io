@@ -11,6 +11,18 @@ text-transform: uppercase;
 font-weight: bold;
 color: #666;
 }
+.tagline{
+  font-family: "PT Sans";
+
+font-size: 12px;
+text-align: center;
+letter-spacing: 2px;
+text-indent: -2px;
+text-transform: uppercase;
+}
+#story-title{
+
+}
 .education-year{
   display: block;
 margin-top: 10px;
@@ -47,6 +59,9 @@ text-transform: uppercase;
 }
 .postContent{
   text-align: center;
+
+}
+.postcontentmain{
 
 }
 .quote-content{
@@ -105,21 +120,26 @@ background: #fff;
 .resumecont{
     width: 800px !important;
 }
+.firstletter{
+  font-size: 40px;
+  padding: 2px;
+  font-weight: 800;
+}
 .post-title{
-  font-family: "PT Sans";
-font-weight: 900;
+  font-family: "Futura Std Medium";
 font-size: 70px;
 text-align: center;
+letter-spacing: 5px;
+text-indent: 10px;
+line-height: 1.3em;
 }
 .quote-content-title{
 
 
 }
 .post-content{
-  font-family: "Source Sans Pro";
-font-weight: 300;
-font-size: 20px;
-
+  font-family: "Gilda Display";
+font-size: 24px;
 text-align: justify;
 }
 .post-meta{
@@ -139,24 +159,28 @@ letter-spacing: 2px;
 text-indent: -2px;
 text-transform: uppercase;
 }
-.postCont{
-
+.home-page, .projects-page, .stories-page, .about-page{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+p {
+    margin: 0 0 2em !important;
 }
 .postLink{
-  text-transform: uppercase;
-text-align: center;
-color: #ff3d00;
-font-family: "Futura Std Medium";
-letter-spacing: 0.3em;
-text-indent: 0.3em;
 
+text-align: center;
+color: black;
+font-family: "Futura Std Medium";
+letter-spacing: 0.1em;
+font-size: 24px;
+padding-bottom: 0.2em;
 
 }
 .postTitle{
   padding: 0.5em;
 }
 .postExt{
-  font-family: "Source Sans Pro";
+  font-family: "Gilda Display";
 font-size: 16px;
 letter-spacing: 0.05em;
 text-indent: 0.05em;
@@ -182,8 +206,9 @@ text-indent: 0.2em;
  font-family: "Futura Std Medium";
  font-size: 60px;
 letter-spacing: 0.5em;
-text-indent: 0.5em;
-
+margin-left: 0.3em;
+  color: black !important;
+  border: none !important;
 }
 .excerpt{
  font-family:"Linux Libertine";
@@ -194,10 +219,10 @@ text-indent: 0.5em;
  text-align: center;
 }
 .stories-caption{
- font-family: 'Cardo';
+  font-family: 'Gilda Display';
  font-size: 18px;
  letter-spacing: 0.2em;
- text-indent: 0.2em;
+ text-indent: 0.4em;
 }
 
 .categories-on{
@@ -313,6 +338,7 @@ src: url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-H
   }
   .exmarks{
     color: black !important;
+    padding: 2em;
   }
   .wel{
     font-size: 16px !important;

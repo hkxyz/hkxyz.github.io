@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <style>
 
 #footer {
@@ -13,7 +14,7 @@ layout: default
 }
 </style>
 <section id="story-title">
-  <div class="container">
+  <div class="">
     <div class="row">
       <center>
       <div class="stories-title">
@@ -27,6 +28,8 @@ layout: default
   </div>
 </section>
 {% for post in site.posts%}
+{% for category in post.categories %}
+{% if category == "project" %}
 <div class="post postContent">
 
 
@@ -59,6 +62,6 @@ layout: default
     </div>
   </div>
 </div>
-
-
+{% endif %}
+{% endfor %}
 {% endfor %}
