@@ -12,6 +12,36 @@ font-weight: bold;
 color: #666;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+.exmarks{
+font-size:0px !important;
+padding: 0em !important;
+}
+.name{
+font-size: 40px !important;
+}
+}
+@media only screen and (max-width: 700px) {
+  .stTitle{
+  font-size:30px !important;
+  letter-spacing:0.2em !important;
+  margin-left:0em !important;
+  }
+  .name{
+  font-size: 40px !important;
+  }
+.exmarks{
+font-size:0px !important;
+padding: 0em !important;
+}
+  .dateAndStuff {
+    text-align: center;
+    font-family: "Futura Std Medium";
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em !important;
+}
+}
 .link{
   color: white !important;
 }
@@ -131,7 +161,7 @@ background: #fff;
   padding: 1em;
 }
 .resumecont{
-    width: 800px !important;
+    
 }
 .firstletter{
   font-size: 40px;
