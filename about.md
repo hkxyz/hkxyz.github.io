@@ -23,9 +23,7 @@ layout: default
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
+    
 <section id="resume">
   <div class="container resumecont">
     <div class="row">

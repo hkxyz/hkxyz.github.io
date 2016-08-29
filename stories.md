@@ -24,9 +24,7 @@ layout: default
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
+  
 {% for post in site.posts%}
 {%  if  post.categories contains 'project' %}{% else %}
 <div class="post postContent">

@@ -24,9 +24,7 @@ layout: default
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
+    
 {% for post in site.posts%}
 {% for category in post.categories %}
 {% if category == "project" %}
