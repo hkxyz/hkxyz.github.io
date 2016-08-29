@@ -20,7 +20,7 @@ layout: default
       <div class="stories-title">
         <span class="stTitle">PROJECTS</span>
         <div class="stories-caption">
-          wanderer's journal about living, non living &amp; animation
+        $ python -m "wall of fame"
         </div>
       </div>
 
@@ -35,10 +35,12 @@ layout: default
 
 
   <div class="postTitle">
-  <a class='postLink' href="{{post.url}}">{{post.title}}</a>
+  <a class='postLink' target="blank" href="{{post.project_url}}">{{post.title}}</a>
   </div>
+  <center class="postType">{{post.project_type}}</center>
   <div class="postExt">
- {{ post.content | strip_html | truncatewords:20}}
+
+ {{ post.content | strip_html }}
   </div>
 
   <div class="container dateAndStuff">

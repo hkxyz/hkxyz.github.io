@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Developer's Diary"
-date:   2016-05-11 14:00:37 +0530
+date:   2016-05-13 14:00:37 +0530
 categories: "Jekyll"
 tagline: "Making of DevJournal"
 author: "Hemang Kumar"

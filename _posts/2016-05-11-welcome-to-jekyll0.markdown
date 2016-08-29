@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ice & Water"
-date:   2016-05-11 13:55:37 +0530
+date:   2016-05-12 13:55:37 +0530
 categories: "Jekyll"
 author: "Hemang Kumar"
 tagline: "the making of the dual face jekyll theme"
